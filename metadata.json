@@ -1,0 +1,8 @@
+{
+  "name": "پنجره (Penjereh) - پلتفرم کفالت فرهنگی",
+  "description": "پلتفرم حامی‌گری و کفالت فرهنگی برای تأمین معلمان متخصص (هنر، قرآن، معارف) در مدارس مناطق کم‌برخوردار و مرزی.",
+  "requestFramePermissions": [],
+  "majorCapabilities": [
+    "MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"
+  ]
+}

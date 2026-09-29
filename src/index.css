@@ -1,0 +1,49 @@
+@import url('https://fonts.googleapis.com/css2?family=Vazirmatn:wght@100..900&display=swap');
+@import "tailwindcss";
+
+@theme {
+  --font-sans: "Vazirmatn", ui-sans-serif, system-ui, sans-serif;
+  --color-brand-light: #AEE2FA;
+  --color-brand-deep: #2E3192;
+  --color-brand-yellow: #E3D634;
+  --color-brand-charcoal: #202333;
+}
+
+html {
+  direction: rtl;
+  text-align: right;
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: "Vazirmatn", system-ui, -apple-system, sans-serif;
+  color: #202333;
+  background-color: #f8fafc;
+  line-height: 1.65;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+/* Accessible focus ring for interactive elements */
+:focus-visible {
+  outline: 2px solid #2E3192;
+  outline-offset: 2px;
+}
+
+/* Custom scrollbar styling for compact lists */
+::-webkit-scrollbar {
+  width: 6px;
+  height: 6px;
+}
+::-webkit-scrollbar-track {
+  background: rgba(174, 226, 250, 0.2);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb {
+  background: rgba(46, 49, 146, 0.25);
+  border-radius: 9999px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: rgba(46, 49, 146, 0.45);
+}
+
